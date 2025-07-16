@@ -1,4 +1,4 @@
-  🤖 Seiren WhatsApp Bot
+<h1 align="center">🤖 Seiren WhatsApp Bot</h1>
 <p align="center">
   <img src="https://img.shields.io/github/stars/kluesky/seiren-whatsappweb.js?style=flat-square" />
   <img src="https://img.shields.io/github/license/kluesky/seiren-whatsappweb.js?style=flat-square" />
@@ -6,38 +6,29 @@
 </p>
 
 <p align="center">
-  <b>✨ A powerful WhatsApp bot built with <code>whatsappweb.js</code> library and modern async JavaScript.</b><br>
-  <b>🚀 Modular, Fast, and Designed for Fun + Utility</b>
+  <b>✨ WhatsApp multipurpose bot berbasis <code>whatsapp-web.js</code>.</b><br>
+  <b>🎮 Dirancang untuk hiburan, AI, game, downloader, dan automasi — all-in-one!</b>
 </p>
 
 ---
 
-## 📦 Fitur Utama
+## 🚀 Fitur Utama
 
-- 🔥 Command handler otomatis (prefix `.`, modular command system)
-- 🎵 `.play` YouTube MP3 downloader dengan button lokasi
-- 📥 Downloader TikTok, IG, Reels, Twitter, dan Otakudesu
-- 🎮 Game anime: PvP Waifu Battle, Tebak Lagu, Suara Karakter, dll
-- 🤖 Fitur AI: Voice Response Anime, Mood System, TalkWithWaifu
-- 🧠 Integrasi AI Asisten: Airi dengan Gemini API
-- 🌐 Multi-platform: Terhubung dengan Telegram & WhatsApp
-- 📊 Logging otomatis: IP Logger, Spylog, Statistik, dll
-
----
-
-## 📁 Struktur Project
-
-├── index.js             # Entrypoint   ├── main.js              # Init 
-├── handler/             # Folder 
-├── group/             # Command khusus ├── downloader/      # Semua fitur 
-├── game/            # Game waifu,  ├── ai/              # AI waifu, mood, ├── lib/                 # Library 
-├── session/             # Data sesi koneksi Baileys └── README.md
+- ⚙️ Modular command handler dengan prefix `.`
+- 🎵 Unduh lagu YouTube dengan `.play` (auto delete button-loc)
+- 📥 Downloader TikTok, Instagram (Reels/Story), Twitter, Otakudesu
+- 🎮 Gacha Waifu, PvP Waifu Battle, Tebak Lagu Anime, Suara Karakter
+- 💬 TalkWithWaifu — interaktif dengan mood & suara karakter anime
+- 🧠 Integrasi AI: Google Gemini, Voice Generator, Chat Assistant
+- 🌐 Interkoneksi Telegram & WhatsApp
+- 📊 Fitur owner: Spylog, IP Tracker, Log Aktivitas, Stat Tracker
+- 🤖 Auto-reply, welcome group, anti toxic, auto-react
 
 ---
 
-## 🚀 Cara Install
+## 📦 Instalasi
 
-> Pastikan kamu sudah menginstall **Node.js v18+** dan **Termux / Linux / Windows Terminal**.
+> Butuh Node.js v18+ dan WhatsApp Web login (QR)
 
 ```bash
 git clone https://github.com/kluesky/seiren-whatsappweb.js
@@ -45,34 +36,38 @@ cd seiren-whatsappweb.js
 npm install
 node index.js
 
-📱 Scan QR dengan WhatsApp Web ketika diminta.
+Lalu scan QR dari WhatsApp Web saat diminta di terminal.
 
 
 ---
 
-⚙️ Command Highlight
+💡 Command Highlight
 
 Command	Fungsi
 
-.play	Unduh lagu dari YouTube (MP3)
-.tt	Download video TikTok tanpa WM
-.ig	Download konten IG Reels/Story
-.waifubattle	PvP Waifu Battle turn-based
-.summon10	Gacha waifu dengan rarity & stats
-.talkwaifu	Ngobrol dengan AI waifu (suara)
-.jadwalanime	Jadwal anime mingguan
+.play	Cari & unduh lagu dari YouTube
+.tt	Downloader TikTok tanpa watermark
+.ig	Downloader Reels / Story Instagram
+.summon10	Gacha Waifu dengan efek suara
+.waifubattle	PvP waifu dengan sistem turn-based
+.talkwaifu	Chat dengan AI waifu (suara + mood)
+.spylog	Cek aktivitas user bot secara real
+.jadwalanime	Lihat jadwal anime mingguan
 
 
 
 ---
 
-🔐 Catatan
+🔐 API & Konfigurasi
 
-🛡 Bot ini hanya untuk edukasi, tidak diperuntukkan untuk spam atau tindakan ilegal.
+Beberapa fitur butuh API key:
 
-🔑 Gunakan API key yang sesuai untuk fitur-fitur tertentu (LOLHuman, Gemini, TikWM, dll).
+GEMINI_API_KEY=your_google_gemini_key
+LOLHUMAN_API_KEY=your_lolhuman_key
+TIKWM_API_KEY=your_tikwm_key
 
-🤖 Script ini bisa kamu kembangkan dengan tambahan fitur Telegram, scheduler, integrasi voice AI, dll.
+> Buat file .env di root project dan isi dengan key kamu.
+
 
 
 
@@ -80,18 +75,27 @@ Command	Fungsi
 
 ✨ Kontribusi
 
-Pull Request terbuka! Silakan fork, buat branch baru, dan submit ide terbaikmu.
+Pull Request sangat diterima! Kamu bisa bantu:
+
+Menambahkan command baru
+
+Menyempurnakan AI atau sistem mood
+
+Membuat integrasi dengan platform lain
+
+
+Fork repo, buat branch baru, dan kirim PR-mu 💙
 
 
 ---
 
-🧠 Developer
+👤 Developer
 
-👤 Author: @kluesky
+💡 Author: @kluesky
 
 📸 Instagram: @me_kyluesky
 
-🧠 Waifu AI: Seiren Beta, asisten virtual waifu yang responsif & imut~
+💬 Waifu Project: Seiren Beta
 
 
 
@@ -99,8 +103,9 @@ Pull Request terbuka! Silakan fork, buat branch baru, dan submit ide terbaikmu.
 
 📄 Lisensi
 
-MIT License © 2025 — Seiren Project by kluesky
+MIT License © 2025 — Seiren WhatsApp AI Project by kluesky
 
 ---
 
-Jika kamu ingin saya bantu langsung push file tersebut ke repo GitHub-mu (via PR) atau ubah formatnya menjadi dark mode (markdown with custom styling), tinggal bilang saja!
+Jika kamu mau file `.md` ini dikirim sebagai file upload (siap tempel ke GitHub), tinggal bilang aja. Mau ditambahkan auto-screenshot preview `.play`, `.waifubattle`, dll juga bisa!
+
