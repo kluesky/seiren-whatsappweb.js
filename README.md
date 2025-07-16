@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <b>✨ A powerful WhatsApp bot built with <code>Baileys</code> library and modern async JavaScript.</b><br>
+  <b>✨ A powerful WhatsApp bot built with <code>whatsappweb.js</code> library and modern async JavaScript.</b><br>
   <b>🚀 Modular, Fast, and Designed for Fun + Utility</b>
 </p>
 
@@ -27,7 +27,11 @@
 
 ## 📁 Struktur Project
 
-├── index.js             # Entrypoint utama (WhatsApp Bot) ├── main.js              # Init dan koneksi Baileys ├── handler/             # Folder command modular │   ├── group/           # Command khusus grup │   ├── downloader/      # Semua fitur download │   ├── game/            # Game waifu, tebak suara, dll │   ├── ai/              # AI waifu, mood, dan voice │   └── ... ├── lib/                 # Library tambahan (helper, database, utils) ├── session/             # Data sesi koneksi Baileys └── README.md
+├── index.js             # Entrypoint   ├── main.js              # Init 
+├── handler/             # Folder 
+├── group/             # Command khusus ├── downloader/      # Semua fitur 
+├── game/            # Game waifu,  ├── ai/              # AI waifu, mood, ├── lib/                 # Library 
+├── session/             # Data sesi koneksi Baileys └── README.md
 
 ---
 
