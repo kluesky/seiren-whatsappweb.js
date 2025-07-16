@@ -83,8 +83,8 @@ Fork repo, buat branch baru, dan kirim PR-mu 💙
 
 ## 👤 Developer
 
-- 💡 Author: [@kluesky](https://github.com/kluesky)
-- 📸 Instagram: [@me_kyluesky](https://instagram.com/me_kyluesky)
+- 💡 Author: [@lyora4](https://github.com/lyora4)
+- 📸 Instagram: [@krebskrum1](https://instagram.com/krebskrum1)
 - 💬 Waifu Project: `Seiren Beta`
 
 ---
