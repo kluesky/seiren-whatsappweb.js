@@ -1,4 +1,4 @@
-h1 align="center">🤖 Seiren WhatsApp Bot</h1>
+🤖 Seiren WhatsApp Bot
 <p align="center">
   <img src="https://img.shields.io/github/stars/kluesky/seiren-whatsappweb.js?style=flat-square" />
   <img src="https://img.shields.io/github/license/kluesky/seiren-whatsappweb.js?style=flat-square" />
